@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 900" preserveAspectRatio="xMidYMin meet" width="100%" height="100%" style="background:#07080b; display:block;">
+  <title>Bread-_TXT_Files</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d0f14"></stop>
+      <stop offset="1" stop-color="#07080b"></stop>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ee7ff"></stop>
+      <stop offset="1" stop-color="#a78bfa"></stop>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"></feGaussianBlur>
+    </filter>
+    <style>
+      text { font-family: "SF Mono", "JetBrains Mono", Menlo, Consolas, "Courier New", monospace; }
+      .title { font-size: 34px; font-weight: 700; fill: #f3f5f9; letter-spacing: -0.5px; }
+      .sub { font-size: 13px; fill: #7c8497; }
+      .card { fill: #12151c; stroke: #1f2430; stroke-width: 1; transition: all .15s ease; }
+      .name { font-size: 16px; font-weight: 600; fill: #e8ebf2; }
+      .size { font-size: 11.5px; fill: #6b7385; }
+      .open { font-size: 12px; fill: #4a5266; transition: fill .15s ease; }
+      .doc { fill: #1a1f2b; stroke: #3b4358; stroke-width: 1.4; }
+      .fold { fill: none; stroke: #3b4358; stroke-width: 1.4; }
+      .lines { stroke: #4a5266; stroke-width: 1.4; stroke-linecap: round; }
+      .bar { fill: url(#accent); opacity: 0; transition: opacity .15s ease; }
+      a.row { cursor: pointer; }
+      a.row:hover .card { fill: #171b25; stroke: #6ee7ff; }
+      a.row:hover .open { fill: #6ee7ff; }
+      a.row:hover .bar { opacity: 1; }
+      a.row:hover .doc { stroke: #6ee7ff; }
+      a.row:hover .fold { stroke: #6ee7ff; }
+    </style>
+  </defs>
+
+  <rect id="bgrect" width="800" height="900" fill="url(#bg)"></rect>
+  <ellipse cx="120" cy="40" rx="160" ry="40" fill="#6ee7ff" opacity="0.07" filter="url(#glow)"></ellipse>
+  <ellipse id="glow2" cx="680" cy="40" rx="160" ry="40" fill="#a78bfa" opacity="0.07" filter="url(#glow)"></ellipse>
+
+  <text class="title" x="40" y="68">Bread-_TXT_Files</text>
+  <rect x="40" y="80" width="64" height="3" rx="1.5" fill="url(#accent)"></rect>
+  <text class="sub" x="40" y="108">11 files  ·  click any file to view it here</text>
+
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/svguranium_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/svguranium_links.txt">
+    <g transform="translate(40,130)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">svguranium_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/coolkid_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/coolkid_links.txt">
+    <g transform="translate(40,192)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">coolkid_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/dominum_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/dominum_links.txt">
+    <g transform="translate(40,254)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">dominum_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/eclipse_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/eclipse_links.txt">
+    <g transform="translate(40,316)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">eclipse_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/froggies_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/froggies_links.txt">
+    <g transform="translate(40,378)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">froggies_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/arctic_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/arctic_links.txt">
+    <g transform="translate(40,440)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">arctic_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/chillzone_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/chillzone_links.txt">
+    <g transform="translate(40,502)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">chillzone_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/cloudmoono_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/cloudmoono_links.txt">
+    <g transform="translate(40,564)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">cloudmoono_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/DuckMath_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/DuckMath_links.txt">
+    <g transform="translate(40,626)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">DuckMath_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/Imp_Games_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/Imp_Games_links.txt">
+    <g transform="translate(40,688)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">Imp_Games_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+  <a class="row" href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/UBGforever_links.txt" xlink:href="https://pub-b7bee62e5b7040958e316690810abdfe.r2.dev/Bread-_TXT_Files/UBGforever_links.txt">
+    <g transform="translate(40,750)"><rect class="card" width="720" height="52" rx="10"></rect><rect class="bar" x="0" y="10" width="3" height="32" rx="1.5"></rect><g transform="translate(22,12)"><path class="doc" d="M2 2a2 2 0 0 1 2-2h10l6 6v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"></path><path class="fold" d="M14 0v4a2 2 0 0 0 2 2h4"></path><path class="lines" d="M6 13h10M6 17h10M6 21h6"></path></g><text class="name" x="62" y="23">UBGforever_links.txt</text><text class="size" x="62" y="40">text file</text><text class="open" x="700" y="31" text-anchor="end">open →</text></g>
+  </a>
+
+  <text class="sub" id="footer" x="400" y="840" text-anchor="middle" opacity="0.7">Bread-_TXT_Files  ·  hosted on cloudflare r2</text>
+
+  <g id="viewer" style="display:none">
+    <rect id="viewerbg" width="800" height="900" fill="#07080b"></rect>
+    <text class="title" id="vtitle" x="40" y="68" style="font-size:26px"></text>
+    <rect x="40" y="80" width="64" height="3" rx="1.5" fill="url(#accent)"></rect>
+    <text class="sub" id="vstat" x="40" y="108">loading…</text>
+    <g id="vback" transform="translate(640,36)" style="cursor:pointer">
+      <rect width="120" height="36" rx="8" fill="#12151c" stroke="#3b4358"></rect>
+      <text x="60" y="23" text-anchor="middle" style="font-size:13px;fill:#e8ebf2">← files</text>
+    </g>
+    
+  </g>
+
+  
+</svg>
